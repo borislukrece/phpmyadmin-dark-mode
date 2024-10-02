@@ -32,3 +32,36 @@ A simple Chrome extension that adds a dark mode to phpMyAdmin, enhancing the use
 - Chrome Extensions API
 
 ### Project Structure
+
+``` plaintext
+phpmyadmin-dark-mode/
+│
+├── assets/
+│   ├── css/
+│   │   ├── sass/
+│   │   │   └── dark-mode.scss
+│   ├── js/
+│   │   └── apply-dark-mode.js
+│   ├── icon16.png
+│   ├── icon32.png
+│   ├── icon48.png
+│   ├── icon128.png
+│   └── pma.png
+│
+├── public/
+│   ├── css/
+│   │   └── dark-mode.css
+│   └── js/
+│       └── apply-dark-mode.js
+│
+├── popup.html
+└── manifest.json
+```
+
+### Contributing
+
+Contributions are welcome! If you want to improve this extension, feel free to submit a pull request.
+
+### License
+
+This project is under the MIT License. See the [LICENSE](https://opensource.org/licenses/MIT) file for more details.
