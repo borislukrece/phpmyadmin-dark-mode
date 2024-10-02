@@ -306,4 +306,48 @@ body.dark-mode {
         background: #3a3a3a;
         color: #e0e0e0;
     }
+
+    #osn_tab {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    #name-panel {
+        border-bottom: 1px solid #666;
+        background: #3a3a3a;
+    }
+
+    #canvas {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    .tab_zag_2 {
+        background: linear-gradient(#4a4a4a 0%, #4a4a4a 39%, #5a5a5a 40%, #5a5a5a 100%);
+    }
+
+    .side-menu {
+        background: #efefef;
+        border: 1px solid gray;
+    }
+
+    .designer_header {
+        background: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    .designer_header a, .designer_header span {
+        border: 1px dotted #000;
+    }
+
+    .designer_Tabs {
+        color: #e0e0e0;
+        background: linear-gradient(#3a3a3a, #2a2a2a 70%, #3a3a3a 70%, #3a3a3a 100%);
+        border: #444 solid 1px;
+    }
+
+    #layer_menu {
+        background-color: #3a3a3a;
+        border: #666 solid 1px;
+    }
 }
