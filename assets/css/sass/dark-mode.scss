@@ -24,6 +24,7 @@ body.dark-mode {
 
     .table {
         --bs-table-striped-bg: rgb(49, 49, 49);
+        --bs-table-hover-bg: #444;
     }
 
     .table-striped > tbody > tr:nth-of-type(even) > * {
@@ -349,5 +350,95 @@ body.dark-mode {
     #layer_menu {
         background-color: #3a3a3a;
         border: #666 solid 1px;
+    }
+
+    #pma_navigation div#pmalogo {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    .breadcrumb-navbar {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    .navbar-nav .nav-link {
+        background-color: #3a3a3a;
+        border-color: #444;
+    }
+
+    .navbar-nav .nav-item.active .nav-link {
+        background-color: #757575;
+    }
+
+    .table caption {
+        background-color: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    #maincontainer .card-header {
+        background-color: #3a3a3a;
+    }
+
+    .result_query {
+        background: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    .sqlOuter code.sql, div.sqlvalidate, #inline_editor_outer {
+        background-color: #2a2a2a;
+        border: 1px solid #444;
+    }
+
+    #pma_navigation #navipanellinks {
+        background-color: #3a3a3a;
+    }
+
+    #li_select_server.list-group-item:hover, #li_change_password.list-group-item:hover, #li_select_mysql_collation.list-group-item:hover, #li_user_preferences.list-group-item:hover, #li_select_lang.list-group-item:hover, #li_select_theme.list-group-item:hover {
+        background: #4d4d4d;
+    }
+
+    .list-group-item {
+        --bs-list-group-bg: #3a3a3a;
+        --bs-list-group-color: #e0e0e0;
+        --bs-list-group-border-color: #444;
+        color: var(--bs-list-group-color);
+        background-color: var(--bs-list-group-bg);
+        border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+    }
+
+    .accordion-item {
+        --bs-accordion-color: #e0e0e0;
+        --bs-accordion-bg: #3a3a3a;
+        --bs-accordion-border-color: #444;
+        color: var(--bs-accordion-color);
+        background-color: var(--bs-accordion-bg);
+        border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+    }
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+        border: 1px solid #444;
+        background: #2a2a2a;
+        color: #e0e0e0;
+    }
+
+    table#chartGrid div.monitorChart {
+        background: #3a3a3a;
+    }
+
+    .popupContent {
+        border: 1px solid #444;
+        background-color: #2a2a2a;
+        box-shadow: 2px 2px 3px #000;
+    }
+
+    .modal-content {
+        --bs-modal-color: #e0e0e0;
+        --bs-modal-bg: #3a3a3a;
+        --bs-modal-border-color: #444;
+        color: var(--bs-modal-color);
+        background-color: var(--bs-modal-bg);
+        border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
+        border-radius: var(--bs-modal-border-radius);
     }
 }
