@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "phpMyAdmin Dark Mode",
+    "version": "1.0",
+    "description": "A simple extension that adds a dark mode to phpMyAdmin.",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "assets/icon16.png",
+            "32": "assets/icon32.png",
+            "48": "assets/icon48.png",
+            "128": "assets/icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/phpmyadmin/*",
+                "*://*.hstgr.io/*"
+            ],
+            "css": [
+                "public/css/dark-mode.css"
+            ],
+            "js": [
+                "public/js/apply-dark-mode.js",
+                "assets/js/content-script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "icons": {
+        "16": "assets/icon16.png",
+        "32": "assets/icon32.png",
+        "48": "assets/icon48.png",
+        "128": "assets/icon128.png"
+    }
+}

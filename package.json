@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "css-compile": "sass --watch assets/css/sass:public/css"
+    }
+}
